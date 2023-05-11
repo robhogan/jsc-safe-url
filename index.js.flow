@@ -1,0 +1,4 @@
+// @flow
+
+declare export function normalizeUrl(urlToNormalize: string): string;
+declare export function toJscSafeUrl(urlToNormalize: string): string;
