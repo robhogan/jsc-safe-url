@@ -1,4 +1,5 @@
 // @flow
 
-declare export function normalizeUrl(urlToNormalize: string): string;
+declare export function isJscSafeUrl(url: string): boolean;
+declare export function toNormalUrl(urlToNormalize: string): string;
 declare export function toJscSafeUrl(urlToConvert: string): string;
