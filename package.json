@@ -1,6 +1,6 @@
 {
   "name": "jsc-safe-url",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Utility functions for converting to and from URLs that encode query string data into URL paths",
   "main": "./index.js",
   "scripts": {
