@@ -19,7 +19,7 @@ toJscSafeUrl('https://example.com/path?foo=bar#fragment')
 
 ## `function toNormalUrl(urlToNormalize: string): string`
 
-Accepts an absolute or relative URL, and replaces the first unescaped `//` in the [path component](https://www.rfc-editor.org/rfc/rfc3986#section-3.3) with `?`. (Effectively the reverse of `toJscSafeUrl`.)
+Accepts an absolute or relative URL, and replaces the first unescaped `//&` in the [path component](https://www.rfc-editor.org/rfc/rfc3986#section-3.3) with `?`. (Effectively the reverse of `toJscSafeUrl`.)
 
 ```
 toNormalUrl('https://example.com/path//foo=bar#fragment')
